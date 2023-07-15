@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Cropper - CropperJS</title>
+    <!-- CDN for the cropperjs - css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.6/cropper.min.css"
+    />
+    <link rel="stylesheet" href="./assets/stylesheets/app.css" />
+  </head>
+  <body>
+    <h1>Image Cropper using CropperJS</h1>
+    <hr />
+    <h2>Upload the image</h2>
+    <input type="file" id="inputImage" accept="image/*" />
+    <hr />
+    <div class="container">
+      <div class="image-wrap">
+        <h2>Uploaded Image</h2>
+        <img id="image" />
+      </div>
+      <div class="croppedImage-wrap">
+        <h2>Cropped Image</h2>
+        <img id="croppedImage" />
+      </div>
+    </div>
+    <hr />
+
+    <!-- CDN for the cropperjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.6/cropper.min.js"></script>
+    <script src="./assets/javascripts/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#image,
+#croppedImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-wrap,
+.croppedImage-wrap {
+  width: 20%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
